@@ -4,10 +4,10 @@ En Dart, les collections sont des structures de données intégrées qui permett
 Une List est une collection ordonnée d'éléments qui peut contenir des valeurs en double. Les listes en Dart sont indexées, et elles peuvent être de taille fixe ou modifiable (growable).
 
 Principales méthodes associées aux List :
-  📍add(element) : Ajoute un élément à la fin de la liste.
-  📍addAll(iterable) : Ajoute tous les éléments d'un Iterable à la fin de la liste.
-  📍insert(index, element) : Insère un élément à une position spécifique.
-  📍insertAll(index, iterable) : Insère tous les éléments d’un Iterable à une position spécifique.
+📍add(element) : Ajoute un élément à la fin de la liste.
+📍addAll(iterable) : Ajoute tous les éléments d'un Iterable à la fin de la liste.
+📍insert(index, element) : Insère un élément à une position spécifique.
+📍insertAll(index, iterable) : Insère tous les éléments d’un Iterable à une position spécifique.
   📍remove(element) : Supprime la première occurrence d’un élément.
   📍removeAt(index) : Supprime l'élément à un index spécifique.
   📍removeLast() : Supprime et renvoie le dernier élément de la liste.
