@@ -161,3 +161,14 @@ Créez une application de gestion de tâches simple qui utilise :
 
 Implémentez des fonctions pour ajouter, supprimer, trier et afficher les tâches, en utilisant les méthodes de collection appropriées.
 
+
+
+
+#  ██████╗ ██████╗  █████╗ ██╗   ██╗ ██████╗ 
+#  ██╔══██╗██╔══██╗██╔══██╗██║   ██║██╔═══██╗
+#  ██████╔╝██████╔╝███████║██║   ██║██║   ██║
+#  ██╔══██╗██╔══██╗██╔══██║╚██╗ ██╔╝██║   ██║
+#  ██████╔╝██║  ██║██║  ██║ ╚████╔╝ ╚██████╔╝
+#  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝  ╚═══╝   ╚═════╝ 
+ 
+# Code créé par [Melchior BANKOLE]

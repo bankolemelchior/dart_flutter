@@ -81,3 +81,14 @@ Objectif : Parcourir une Map et rechercher des informations spécifiques.
 Crée une Map où les clés sont des noms de produits et les valeurs sont les prix correspondants (au moins 5 produits).
 Écris une fonction qui prend un prix en argument et renvoie le nom des produits dont le prix est inférieur ou égal à ce montant.
 Teste la fonction avec plusieurs valeurs.
+
+
+
+#  ██████╗ ██████╗  █████╗ ██╗   ██╗ ██████╗ 
+#  ██╔══██╗██╔══██╗██╔══██╗██║   ██║██╔═══██╗
+#  ██████╔╝██████╔╝███████║██║   ██║██║   ██║
+#  ██╔══██╗██╔══██╗██╔══██║╚██╗ ██╔╝██║   ██║
+#  ██████╔╝██║  ██║██║  ██║ ╚████╔╝ ╚██████╔╝
+#  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝  ╚═══╝   ╚═════╝ 
+ 
+# Code créé par [Melchior BANKOLE]

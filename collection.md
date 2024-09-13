@@ -70,3 +70,13 @@ removeLast() : Supprime et renvoie le dernier élément.
 length : Renvoie la taille de la queue.
 isEmpty : Renvoie true si la queue est vide.
 isNotEmpty : Renvoie true si la queue contient des éléments.
+
+
+#  ██████╗ ██████╗  █████╗ ██╗   ██╗ ██████╗ 
+#  ██╔══██╗██╔══██╗██╔══██╗██║   ██║██╔═══██╗
+#  ██████╔╝██████╔╝███████║██║   ██║██║   ██║
+#  ██╔══██╗██╔══██╗██╔══██║╚██╗ ██╔╝██║   ██║
+#  ██████╔╝██║  ██║██║  ██║ ╚████╔╝ ╚██████╔╝
+#  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝  ╚═══╝   ╚═════╝ 
+ 
+# Code créé par [Melchior BANKOLE]

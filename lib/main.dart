@@ -1,38 +1,52 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  //widgetsApp //MaterialApp //CupertinoApp
-  //widgets is low level, so instead of using WidgetsApp() in the run app
-  runApp(MaterialApp(
-    home: const HomePage(),
-    theme: ThemeData(
-      primarySwatch: Colors.green,
-    ),
-  ));
-}
+void main() => runApp(const MyApp());
 
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text("Awesome App"),
-      ),
-      body: Center(
-        child: Container(
-          padding: const EdgeInsets.all(8),
-          // color: Colors.red,
-          width: 100,
-          height: 100,
-          alignment: Alignment.center,
-          decoration: const BoxDecoration(
-            color: Colors.deepPurpleAccent,
-          ),
-          child: const Text("Child Text"),
+    const appTitle = 'Form Styling Demo';
+    return MaterialApp(
+      title: appTitle,
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text(appTitle),
         ),
+        body: const MyCustomForm(),
       ),
+    );
+  }
+}
+
+class MyCustomForm extends StatelessWidget {
+  const MyCustomForm({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: <Widget>[
+        const Padding(
+          padding: EdgeInsets.symmetric(horizontal: 8, vertical: 16),
+          child: TextField(
+            decoration: InputDecoration(
+              border: OutlineInputBorder(),
+              hintText: 'Enter a search term',
+            ),
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 16),
+          child: TextFormField(
+            decoration: const InputDecoration(
+              border: UnderlineInputBorder(),
+              labelText: 'Enter your username',
+            ),
+          ),
+        ),
+      ],
     );
   }
 }
